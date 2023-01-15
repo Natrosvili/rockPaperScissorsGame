@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+body, html {
+  border-radius: 1.2rem;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-content: center;
+  background-image: url("./assets/photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+}
+
+section {
+  border-radius: 1.2rem;
+  opacity: 0.8;
+  background-color: #586F7C;
+  border: 3px solid #8BA6A9;
+  width: 22rem;
+  height: 20rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button1 {
+  border-radius: 2rem;
+  background-color: #323A53;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.button1:hover {
+  font-size: 1.5rem;
+  background-color: #103737;
+}
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */
